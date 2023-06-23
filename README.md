@@ -19,6 +19,12 @@ git clone https://github.com/ThiagoFSPaiva/crud-autenticacao.git
 ```sh
 cd crud-autenticacao
 ```
+
+Crie o Arquivo .env
+```sh
+cp .env.example .env
+```
+
 Configure o seu banco de dados (Você também pode usar o xamp e usar o MySQL localmente).
 ```sh
 DB_CONNECTION=mysql
@@ -27,11 +33,6 @@ DB_PORT=3306
 DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=
-```
-
-Crie o Arquivo .env
-```sh
-cp .env.example .env
 ```
 
 Crie o banco de dados automaticamente com as tabelas com o comando:
