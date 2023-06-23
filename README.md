@@ -4,17 +4,17 @@ Este projeto é um sistema de autenticação que oferece recursos de login, cada
 
 
 
-![](https://github.com/ThiagoFSPaiva/crud-autenticacao/blob/main/screenshot/print1.png)
+![](https://github.com/ThiagoFSPaiva/crud-autenticacao/blob/master/screenshot/print1.png)
 
-![](https://github.com/ThiagoFSPaiva/crud-autenticacao/blob/main/screenshot/print2.png)
+![](https://github.com/ThiagoFSPaiva/crud-autenticacao/blob/master/screenshot/print2.png)
 
-![](https://github.com/ThiagoFSPaiva/crud-autenticacao/blob/main/screenshot/print3.png)
+![](https://github.com/ThiagoFSPaiva/crud-autenticacao/blob/master/screenshot/print3.png)
 
 ### Passo a passo
 
 Clone Repositório
 ```sh
-git clone link
+git clone https://github.com/ThiagoFSPaiva/crud-autenticacao.git
 ```
 ```sh
 cd crud-autenticacao
