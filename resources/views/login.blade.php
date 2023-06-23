@@ -29,7 +29,7 @@
 
                 <div class="mb-3">
                     <label for="cpf" class="form-label font-weight-bold">CPF</label>
-                    <input type="text" class="cpf form-control form-control-lg" placeholder="000.000.000-00" name="cpf" id="cpf">
+                    <input type="text" autocomplete="off" class="cpf form-control form-control-lg" placeholder="000.000.000-00" name="cpf" id="cpf">
                 </div>
 
                 <div class="mb-3">
@@ -37,7 +37,7 @@
                         <label for="senha" class="form-label">Senha</label>
                         <a href="/recuperar-senha" class="text-decoration-none text-color">Esqueceu sua senha?</a>
                     </div>
-                    <input type="password" class="form-control form-control-lg" placeholder="Sua senha" name="senha" id="senha">
+                    <input type="password" autocomplete="off" class="form-control form-control-lg" placeholder="Sua senha" name="senha" id="senha">
                 </div>
 
                 <button id="login-btn" class="btn w-100 btn-lg btn-dark">Entrar</button>

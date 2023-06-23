@@ -47,6 +47,9 @@ class AutenticacaoController extends Controller
 
         // verifica se já existe um usuário com o mesmo CPF
         $cpf = $dados['cpf'];
+        $cpf = str_replace('-', '', $cpf); // Remove os hifens
+        $cpf = str_replace('.', '', $cpf); // Remove os pontos
+        $cpf = str_replace(' ', '', $cpf);
         $existe = User::where('cpf', $cpf)->exists();
         if ($existe) {
             return response()->json(['mensagem' => 'Já existe um usuário com este CPF.'], 400);
@@ -76,6 +79,9 @@ class AutenticacaoController extends Controller
 
         // RECUPERA DADOS DO FORM
         $cpf = $request->input('cpf');
+        $cpf = str_replace('-', '', $cpf); // Remove os hifens
+        $cpf = str_replace('.', '', $cpf); // Remove os pontos
+        $cpf = str_replace(' ', '', $cpf);
         $senha = $request->input('senha');
 
         // VERIFICA SE O USUARIO EXISTE NO BANCO DE DADOS

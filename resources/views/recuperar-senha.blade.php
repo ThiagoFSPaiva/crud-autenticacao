@@ -36,7 +36,7 @@
             <button id="recuperar-btn" class="btn w-100 btn-lg btn-dark">Enviar</button>
 
             <div class="text-center py-4 fw-medium">
-                <a href="/" class="text-decoration-none text-dark">Voltar</a>
+                <a href="/" class="text-decoration-none text-color">Voltar</a>
             </div>
 
         </div>

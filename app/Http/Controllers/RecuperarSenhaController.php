@@ -23,6 +23,9 @@ class RecuperarSenhaController extends Controller
     {
         // RECUPERA DADOS DO FORM
         $cpf = $request->input('cpf');
+        $cpf = str_replace('-', '', $cpf); // Remove os hifens
+        $cpf = str_replace('.', '', $cpf); // Remove os pontos
+        $cpf = str_replace(' ', '', $cpf);
         $user = User::where('cpf', $cpf)->first();
 
         // VERIFICA SE O USUARIO ESTÁ CADASTRADO

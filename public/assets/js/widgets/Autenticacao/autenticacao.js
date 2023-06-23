@@ -26,8 +26,6 @@ $(document).ready(function() {
         //MOSTRA LOADING
         $('.loading').show();
 
-        //REMOVE A MASCARA
-        $('.cpf').unmask();
         //OBTEM DADOS DO FORMM
         var cpf = $('input[name=cpf]').val();
         var senha = $('input[name=senha]').val();
@@ -63,8 +61,7 @@ $(document).ready(function() {
     });
 
     $('#register-btn').click(function() {
-        //remove a mascara
-        $('.cpf').unmask();
+
         // Obter os dados do formulário
         var nome = $('input[name=nome]').val();
         var cpf = $('input[name=cpf]').val();
@@ -150,8 +147,6 @@ $(document).ready(function() {
         //MOSTRA LOADING
         $('.loading').show();
 
-        //REMOVE A MASCARA ANTES DE ENVIAR PRO BACK-END
-        $('.cpf').unmask();
         event.preventDefault();
         //OBTEM O VALOR DO INPUT CPF
         var cpf = $('#cpf').val();

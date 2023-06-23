@@ -29,19 +29,19 @@
             </p>
             <div class="mb-2">
                 <label for="name" class="form-label">NOME COMPLETO</label>
-                <input type="text" placeholder="Seu Nome" class="form-control form-control-lg" name="nome" id="name">
+                <input type="text" autocomplete="off" placeholder="Seu Nome" class="form-control form-control-lg" name="nome" id="name">
             </div>
             <div class="mb-2">
                 <label for="cpf" class="form-label font-weight-bold">CPF</label>
-                <input type="text" placeholder="000.000.000-00" class="cpf form-control form-control-lg" name="cpf" id="cpf">
+                <input type="text" autocomplete="off" placeholder="000.000.000-00" class="cpf form-control form-control-lg" name="cpf" id="cpf">
             </div>
             <div class="mb-2">
                 <label for="email" class="form-label">EMAIL</label>
-                <input type="email" placeholder="seuemail@exemplo.com" class="form-control form-control-lg" name="email" id="email">
+                <input type="email" autocomplete="off" placeholder="seuemail@exemplo.com" class="form-control form-control-lg" name="email" id="email">
             </div>
             <div class="mb-2">
                 <label for="senha" class="form-label font-weight-bold">SENHA</label>
-                <input type="password" placeholder="Digita sua senha" class="form-control form-control-lg" name="senha" id="senha">
+                <input type="password" autocomplete="off" placeholder="Digita sua senha" class="form-control form-control-lg" name="senha" id="senha">
             </div>
 
             <button id="register-btn" class="btn w-100 btn-lg btn-dark">Cadastrar</button>
