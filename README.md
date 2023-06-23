@@ -65,4 +65,4 @@ php artisan serve
 
 Acesse o projeto pelo link fornecido
 
-![](https://github.com/ThiagoFSPaiva/crud-autenticacao/blob/main/screenshot/print4.png)
+![](https://github.com/ThiagoFSPaiva/crud-autenticacao/blob/master/screenshot/print4.png)
