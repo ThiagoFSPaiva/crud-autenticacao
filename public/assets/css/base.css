@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&display=swap');
+
+body{
+    background-color: #141426 !important;
+    font-family: 'Inter', sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+.login .ub-logo{
+    width: auto;
+    height: 50px;
+}
+.login .login-box{
+    max-width: 400px;
+    padding: 0 20px;
+    position: relative;
+ }
+
+.login .group-label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login .group-label .form-label {
+    font-weight: bold;
+    margin: 0;
+}
+.login .login-box  .login-container{
+    --bs-card-border-radius: 20px !important;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    gap: 14px;
+    background-color: #222a44;
+    border-radius: 12px;
+    /* border: 1px solid rgba(209, 213, 219, 0.3); */
+    padding: 34px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px
+}
+
+.login .login-box .card:before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: 26px;
+    height: 8px;
+    width: 85%;
+    background-color: #64ffda;
+    border-radius: 30px;
+}
+.login .login-box .login-container h1{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #64ffda;
+}
+.login .login-box .login-container .desc{
+    max-width: 400px;
+    font-size: 0.9rem;
+    color: #6d83a9;
+}
+
+.btn {
+    background-color: #64ffda !important;
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.form-control {
+    background-color: #394363 !important;
+    border: none !important;
+    color: aliceblue !important;
+}
+
+.form-control:focus {
+    background-color: #394363 !important;
+    border: none !important;
+}
+
+.form-label {
+    color: aliceblue; !important;
+}
+.text-color {
+    color: #6d83a9;
+}
