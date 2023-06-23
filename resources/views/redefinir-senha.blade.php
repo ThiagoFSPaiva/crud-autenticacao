@@ -89,7 +89,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="cpf" class="form-label">CPF:</label>
-                            <input type="text" class="form-control" id="cpf" value="123.456.789-00" disabled>
+                            <input type="text" class="form-control cpf" id="cpf" value="{{session('user.cpf')}}" disabled>
                         </div>
                         <button type="button" class="btn btn-primary botao-redefinir" data-bs-toggle="modal" data-bs-target="#redefinirSenhaModal">
                             Redefinir Senha

@@ -1,14 +1,3 @@
-
-
-    document.addEventListener('DOMContentLoaded', function() {
-    var nomeInput = document.getElementById('nome');
-    if (nomeInput) {
-    var nomeCompleto = nomeInput.value;
-    var primeiroNome = nomeCompleto.split(' ')[0];
-    nomeInput.value = primeiroNome;
-}
-});
-
 $(document).ready(function() {
 
     //CRIA MASCARA DE CPF
