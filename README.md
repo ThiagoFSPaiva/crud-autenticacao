@@ -53,12 +53,12 @@ php artisan migrate
 Atualize as variáveis de ambiente para envio do email no arquivo .env
 ```dosini
 MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USERNAME=seuemail@gmail.com
-MAIL_PASSWORD=suaSenha
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS="seuemail@gmail.com"
+MAIL_HOST=mailpit
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="hello@example.com"
 MAIL_FROM_NAME="${APP_NAME}"
 ```
 
