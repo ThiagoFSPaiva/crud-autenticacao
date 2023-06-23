@@ -25,6 +25,16 @@ Crie o Arquivo .env
 cp .env.example .env
 ```
 
+Instale as dependências do projeto
+```sh
+composer install
+```
+
+Gere a key do projeto Laravel
+```sh
+php artisan key:generate
+```
+
 Configure o seu banco de dados (Você também pode usar o xamp e usar o MySQL localmente).
 ```sh
 DB_CONNECTION=mysql
@@ -40,7 +50,6 @@ Crie o banco de dados automaticamente com as tabelas com o comando:
 php artisan migrate
 ```
 
-
 Atualize as variáveis de ambiente para envio do email no arquivo .env
 ```dosini
 MAIL_MAILER=smtp
@@ -52,12 +61,6 @@ MAIL_ENCRYPTION=tls
 MAIL_FROM_ADDRESS="seuemail@gmail.com"
 MAIL_FROM_NAME="${APP_NAME}"
 ```
-
-Instale as dependências do projeto
-```sh
-composer install
-```
-
 
 Inicie o projeto
 ```sh
